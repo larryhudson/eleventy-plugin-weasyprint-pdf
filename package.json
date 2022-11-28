@@ -1,0 +1,18 @@
+{
+  "name": "eleventy-plugin-weasyprint-pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eleventy",
+    "postinstall": "patch-package"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0-canary.18",
+    "lodash.merge": "^4.6.2",
+    "node-static": "^0.7.11",
+    "weasyprint": "^0.1.7"
+  }
+}

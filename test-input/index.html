@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PDF</title>
+
+    <style>
+        body {
+            color: darkred;
+            font-family: sans-serif;
+            background-color: white;
+            padding: 1cm;
+        }
+
+        .columns {
+            display: flex;
+            margin: -1cm;
+        }
+
+        .column {
+            margin: 1cm;
+        }
+    </style>
+
+    <style media="print">
+
+        body {
+            margin: 10cm;
+            background-color: lightgray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Testing?</h1>
+    <p>How does this look?</p>
+
+    <div class="columns">
+        <div class="column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores hic atque quod, asperiores illum reiciendis eum vero sequi illo dolore ullam ducimus fuga quas iste voluptate possimus. Harum, aspernatur natus?</div>
+        <div class="column">Deleniti vero explicabo alias similique, at qui consectetur ullam facere sint accusantium tempore consequuntur molestias laborum minus ea mollitia, voluptates soluta veniam dolore, maxime nesciunt. Pariatur dolores illum magnam optio.</div>
+        <div class="column">Cum voluptates debitis asperiores, nobis repellat aspernatur perspiciatis! Quibusdam provident debitis repellat exercitationem. Placeat provident error quibusdam delectus labore cum laboriosam voluptatibus sed adipisci, iste, nesciunt aut. Odit, necessitatibus commodi.</div>
+    </div>
+
+    <h2>Bullets</h2>
+
+    <ul>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati neque, officiis culpa explicabo laboriosam deserunt itaque accusamus quod ducimus ea consectetur amet repellendus quas et minus assumenda nostrum! Officiis, iusto!</li>
+        <li>Molestias voluptate mollitia voluptas, ab laborum corrupti earum aliquid. Incidunt corporis dolore exercitationem officiis molestiae nobis! Provident, officia ex ad repudiandae blanditiis veniam commodi amet molestiae, architecto assumenda unde! Repellat.</li>
+        <li>Soluta, saepe. Perspiciatis veniam harum placeat molestias illo dicta ipsam unde repudiandae corporis cum earum sequi fugit fugiat tempora asperiores sit reiciendis ipsum, voluptas reprehenderit rerum esse soluta aliquam obcaecati!</li>
+    </ul>
+    
+</body>
+</html>
